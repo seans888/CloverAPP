@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "91834710255",
+    "firebase_url": "https://cloverapppos-14201.firebaseio.com",
+    "project_id": "cloverapppos-14201",
+    "storage_bucket": "cloverapppos-14201.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:91834710255:android:855ddab8ee333027",
+        "android_client_info": {
+          "package_name": "com.cloverapppos.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "91834710255-odkppqb50nupcomhklis73m2p623nie9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cloverapppos.android",
+            "certificate_hash": "b38020cb7bd0718ccc74fb34349714cd16307a60"
+          }
+        },
+        {
+          "client_id": "91834710255-3pc2jtkeesagtpomhveal42r5vur4lhk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwD3ANIVxbtEhAg8IaEMFxUa5gKUCvQ_8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "91834710255-3pc2jtkeesagtpomhveal42r5vur4lhk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

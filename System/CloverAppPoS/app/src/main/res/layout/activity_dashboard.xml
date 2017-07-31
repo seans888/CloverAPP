@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_dashboard"
+    android:background="#F48FB1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cloverapppos.android.Dashboard">
+
+    <ImageView
+        android:id="@+id/dashboard_logo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/cloverlogo"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        />
+
+    <TextView
+        android:id="@+id/dashboard_welcome"
+        android:gravity="center"
+        android:textColor="#6A1B9A"
+        android:textSize="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="Welcome, User"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/dashboard_logo"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/dashboard_input_new_password"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/dashboard_welcome"
+        android:layout_marginTop="41dp"
+        android:background="#F06292"
+        android:hint="Enter New Password"
+        android:inputType="textPassword|textWebPassword"
+        android:maxLines="1"
+        android:textColor="#FAFAFA"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="234dp">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/dashboard_btn_changepassword"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:background="#C2185B"
+        android:text="Change Password"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="345dp"
+        android:layout_below="@+id/dashboard_input_new_password"
+        android:layout_alignParentStart="true">
+
+    </Button>
+
+    <Button
+        android:id="@+id/dashboard_btn_logout"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/dashboard_btn_changepassword"
+        android:layout_marginTop="31dp"
+        android:background="#C2185B"
+        android:text="LOGOUT"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="345dp">
+
+    </Button>
+
+
+
+</RelativeLayout>

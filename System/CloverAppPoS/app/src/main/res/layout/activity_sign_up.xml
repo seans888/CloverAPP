@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_signup"
+    android:background="#F48FB1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cloverapppos.android.SignUp">
+
+
+    <ImageView
+        android:id="@+id/login_logo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/cloverlogo"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        />
+
+    <TextView
+        android:id="@+id/signup_appTitle"
+        android:gravity="center"
+        android:textColor="#6A1B9A"
+        android:textSize="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="Account Registration"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/login_logo"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/signup_email"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginTop="19dp"
+        android:background="#F06292"
+        android:hint="Email"
+        android:inputType="textCapWords|textEmailAddress"
+        android:maxLines="1"
+        android:textColor="#FAFAFA"
+        android:layout_below="@+id/signup_appTitle"
+        android:layout_alignParentStart="true">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/signup_password"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/signup_email"
+        android:layout_marginTop="19dp"
+        android:background="#F06292"
+        android:hint="Password"
+        android:inputType="textPassword|textWebPassword"
+        android:maxLines="1"
+        android:textColor="#FAFAFA"></EditText>
+
+    <Button
+        android:id="@+id/signup_btn"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:background="#C2185B"
+        android:text="REGISTER"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="345dp"
+        android:layout_below="@+id/signup_password"
+        android:layout_alignParentEnd="true">
+
+    </Button>
+
+    <TextView
+        android:id="@+id/signup_btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="37dp"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="ALREADY HAVE AN ACCOUNT?"
+        android:textColor="#6A1B9A"
+        android:textStyle="bold"
+        android:layout_below="@+id/signup_btn"
+        android:layout_alignParentStart="true"></TextView>
+
+    <TextView
+        android:id="@+id/signup_btn_forgotPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FORGOT PASSWORD?"
+        android:clickable="true"
+        android:textStyle="bold"
+        android:textColor="#6A1B9A"
+        android:gravity="center"
+        android:layout_marginTop="41dp"
+        android:layout_below="@+id/signup_btn_login"
+        android:layout_alignParentStart="true">
+    </TextView>
+
+
+</RelativeLayout>
