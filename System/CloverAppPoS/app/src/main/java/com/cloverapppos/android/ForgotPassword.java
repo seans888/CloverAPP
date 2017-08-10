@@ -1,10 +1,12 @@
 package com.cloverapppos.android;
 
 import android.content.Intent;
+import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
+import android.support.v7.widget.CardView;
+import android.transition.Explode;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -17,9 +19,23 @@ import com.google.firebase.auth.FirebaseAuth;
 
 public class ForgotPassword extends AppCompatActivity implements View.OnClickListener {
 
-    Button forgotpass_btn_reset;
-    EditText forgotpass_email;
-    TextView forgotpass_back;
+//    Button forgotpass_btn_reset;
+//    EditText forgotpass_email;
+//    TextView forgotpass_back;
+
+
+//    @InjectView(R.id.etRecoveryEmail)
+    EditText etRecoveryEmail;
+//    @InjectView(R.id.bt_logout)
+    Button bt_logout;
+//    @InjectView(R.id.bt_recoverPassword)
+    Button bt_recoverPassword;
+//    @InjectView(R.id.tv_back)
+    TextView tv_back;
+//    @InjectView(R.id.cv)
+    CardView cv;
+
+
     RelativeLayout activity_forgotpass;
 
     FirebaseAuth auth;
@@ -29,30 +45,39 @@ public class ForgotPassword extends AppCompatActivity implements View.OnClickLis
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_forgot_password);
 
-        forgotpass_btn_reset = (Button) findViewById(R.id.forgotpass_btn_changepassword);
-        forgotpass_email = (EditText) findViewById(R.id.forgotpass_email);
-        forgotpass_back = (TextView) findViewById(R.id.forgotpass_btn_back);
+        bt_recoverPassword = (Button) findViewById(R.id.bt_recoverPassword);
+        etRecoveryEmail = (EditText) findViewById(R.id.etRecoveryEmail);
+        tv_back = (TextView) findViewById(R.id.tv_back);
         activity_forgotpass = (RelativeLayout) findViewById(R.id.activity_forgotpass);
 
-        forgotpass_btn_reset.setOnClickListener(this);
-        forgotpass_back.setOnClickListener(this);
+        bt_recoverPassword.setOnClickListener(this);
+        tv_back.setOnClickListener(this);
 
         //Initialize Firebase
         auth = FirebaseAuth.getInstance();
 
     }
 
-    @Override
-    public void onClick(View v) {
+//    @OnClick({R.id.bt_logout, R.id.bt_changePassword})
+    public void onClick(View view) {
+        if (view.getId() == R.id.tv_back) {
 
-        if(v.getId() == R.id.forgotpass_btn_back){
-            startActivity(new Intent(ForgotPassword.this, Login.class));
+            getWindow().setExitTransition(null);
+            getWindow().setEnterTransition(null);
+
+            startActivity(new Intent(ForgotPassword.this, MainActivity.class));
             finish();
-        }else if(v.getId() == R.id.forgotpass_btn_changepassword){
-            resetPassword(forgotpass_email.getText().toString());
-        }
 
+        }else if (view.getId() == R.id.bt_recoverPassword) {
+            Explode explode = new Explode();
+            explode.setDuration(500);
+            getWindow().setExitTransition(explode);
+            getWindow().setEnterTransition(explode);
+
+            resetPassword(etRecoveryEmail.getText().toString());
+        }
     }
+
 
     private void resetPassword(final String email) {
         auth.sendPasswordResetEmail(email)
