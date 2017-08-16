@@ -1,36 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.cloverapppos.android">
+    package="com.cloverapp.android">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/cloverlogo"
+        android:icon="@mipmap/ic_launcher"
         android:label="CloverApp"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity
-
-            android:name=".MainActivity">
+        <activity android:name=".UserAuth.LoginPage">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".RegisterActivity">
-            <intent-filter>
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".ForgotPassword">
-            <intent-filter>
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".Account">
-            <category android:name="android.intent.category.LAUNCHER" />
-        </activity>
+        <activity android:name=".UserAuth.SignUp" />
+        <activity android:name=".Inventory.Inventory"></activity>
+        <activity android:name=".PointOfSales.PoS"></activity>
     </application>
 
 </manifest>

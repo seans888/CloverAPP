@@ -1,4 +1,4 @@
-package com.cloverapppos.android;
+package com.cloverapp.android;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.cloverapppos.android", appContext.getPackageName());
+        assertEquals("com.cloverapp.android", appContext.getPackageName());
     }
 }

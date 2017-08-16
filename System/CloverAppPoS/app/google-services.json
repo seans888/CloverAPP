@@ -8,17 +8,17 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:91834710255:android:855ddab8ee333027",
+        "mobilesdk_app_id": "1:91834710255:android:6ac72397b19e5916",
         "android_client_info": {
-          "package_name": "com.cloverapppos.android"
+          "package_name": "com.cloverapp.android"
         }
       },
       "oauth_client": [
         {
-          "client_id": "91834710255-odkppqb50nupcomhklis73m2p623nie9.apps.googleusercontent.com",
+          "client_id": "91834710255-nnnkkrbp4cnq7rj260e8qlm745ujeofa.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.cloverapppos.android",
+            "package_name": "com.cloverapp.android",
             "certificate_hash": "b38020cb7bd0718ccc74fb34349714cd16307a60"
           }
         },

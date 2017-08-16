@@ -1,4 +1,4 @@
-package com.cloverapppos.android;
+package com.cloverapp.android;
 
 import org.junit.Test;
 
