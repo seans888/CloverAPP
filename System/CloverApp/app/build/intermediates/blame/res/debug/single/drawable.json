@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "E:\\Projects\\AndroidProjects\\pos\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_black.xml",
+        "source": "E:\\Projects\\AndroidProjects\\pos\\app\\src\\main\\res\\drawable\\btn_black.xml"
+    },
+    {
+        "merged": "E:\\Projects\\AndroidProjects\\pos\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_green.xml",
+        "source": "E:\\Projects\\AndroidProjects\\pos\\app\\src\\main\\res\\drawable\\btn_green.xml"
+    },
+    {
+        "merged": "E:\\Projects\\AndroidProjects\\pos\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cart.png",
+        "source": "E:\\Projects\\AndroidProjects\\pos\\app\\src\\main\\res\\drawable\\cart.png"
+    },
+    {
+        "merged": "E:\\Projects\\AndroidProjects\\pos\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cloverlogo.png",
+        "source": "E:\\Projects\\AndroidProjects\\pos\\app\\src\\main\\res\\drawable\\cloverlogo.png"
+    },
+    {
+        "merged": "E:\\Projects\\AndroidProjects\\pos\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_white.xml",
+        "source": "E:\\Projects\\AndroidProjects\\pos\\app\\src\\main\\res\\drawable\\btn_white.xml"
+    },
+    {
+        "merged": "E:\\Projects\\AndroidProjects\\pos\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_red.xml",
+        "source": "E:\\Projects\\AndroidProjects\\pos\\app\\src\\main\\res\\drawable\\btn_red.xml"
+    },
+    {
+        "merged": "E:\\Projects\\AndroidProjects\\pos\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_yellow.xml",
+        "source": "E:\\Projects\\AndroidProjects\\pos\\app\\src\\main\\res\\drawable\\btn_yellow.xml"
+    },
+    {
+        "merged": "E:\\Projects\\AndroidProjects\\pos\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\edit.png",
+        "source": "E:\\Projects\\AndroidProjects\\pos\\app\\src\\main\\res\\drawable\\edit.png"
+    },
+    {
+        "merged": "E:\\Projects\\AndroidProjects\\pos\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_blue.xml",
+        "source": "E:\\Projects\\AndroidProjects\\pos\\app\\src\\main\\res\\drawable\\btn_blue.xml"
+    },
+    {
+        "merged": "E:\\Projects\\AndroidProjects\\pos\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_purple.xml",
+        "source": "E:\\Projects\\AndroidProjects\\pos\\app\\src\\main\\res\\drawable\\btn_purple.xml"
+    }
+]

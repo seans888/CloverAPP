@@ -1,0 +1,13 @@
+#Sun Sep 03 22:30:10 SGT 2017
+renamed.3=classes.dex
+renamed.2=classes3.dex
+renamed.1=classes4.dex
+renamed.0=classes2.dex
+base.3=E\:\\Projects\\AndroidProjects\\pos\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_dd6c2f08328b1543be229c7d4debc60a9928e542
+base.2=E\:\\Projects\\AndroidProjects\\pos\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\achartengine-1.1.0_562b9ee2becc8676c059cb69629dc50df10df9b0
+base.1=E\:\\Projects\\AndroidProjects\\pos\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\android-integration-2.0-supportv4_dca15bbc1a6a9d75b8d992818f6504830abde497
+base.0=E\:\\Projects\\AndroidProjects\\pos\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\support-v4-18.0.0_b2bfbb7594306625c8ee517c45e077e451c0e27b
+file.3=E\:\\Projects\\AndroidProjects\\pos\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_dd6c2f08328b1543be229c7d4debc60a9928e542\\classes.dex
+file.2=E\:\\Projects\\AndroidProjects\\pos\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\achartengine-1.1.0_562b9ee2becc8676c059cb69629dc50df10df9b0\\classes.dex
+file.1=E\:\\Projects\\AndroidProjects\\pos\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\android-integration-2.0-supportv4_dca15bbc1a6a9d75b8d992818f6504830abde497\\classes.dex
+file.0=E\:\\Projects\\AndroidProjects\\pos\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\support-v4-18.0.0_b2bfbb7594306625c8ee517c45e077e451c0e27b\\classes.dex
